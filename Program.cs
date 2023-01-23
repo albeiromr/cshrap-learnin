@@ -63,6 +63,19 @@ namespace aplicacion1
             Console.WriteLine(floatuno);
 
             #endregion
+
+            #region concatenaciones de strings
+
+            byte años = 18;
+            string meazure = " edad";
+
+            //concatenación con el simbolo mas
+            Console.WriteLine("tienes " + años + " de" + meazure);
+
+            //concatenación con interpolación
+            Console.WriteLine($"Tienes una edad de {años} años");
+
+            #endregion
         }
     }
 }
