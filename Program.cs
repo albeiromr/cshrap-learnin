@@ -6,7 +6,7 @@ namespace aplicacion1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Bienvenido a C#");  //esto imprime un mensaje en consola
         }
     }
 }
