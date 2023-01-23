@@ -6,7 +6,7 @@ namespace aplicacion1
     {
         static void Main(string[] args)
         {
-            //C# supports the following predefined integral types:
+            #region enteros
             //reference  https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
 
 
@@ -42,6 +42,27 @@ namespace aplicacion1
             ulong number569569569569569 = 569569569569569;
             Console.WriteLine(number569569569569569);
 
+            #endregion
+
+            #region flotantes
+
+            //tipos de datos de punto flotante
+            //reference  https://www.youtube.com/watch?v=7OcIQEO9psc&ab_channel=ElCaminoDev
+            //reference 2 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types#code-try-1
+
+            //decimal: muchísima mas precisión, 28-29 digits, menor rendimiento, numero con base 10, Literal m
+            decimal decimaluno = 2.1m;
+            Console.WriteLine(decimaluno);
+
+            //double: presición intermedia pero mas rendimiento, ~15-17 digits, numero con base 2, literal D
+            double doubleuno = 3.569536D;
+            Console.WriteLine(doubleuno);
+
+            //float: menor presición que el double, ~6-9 digits, mas rendimiento, literal F
+            float floatuno  = 5.8890F;
+            Console.WriteLine(floatuno);
+
+            #endregion
         }
     }
 }
