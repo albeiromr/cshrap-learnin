@@ -15,6 +15,8 @@ namespace aplicacion1
 
             Strings.PrintStrings();
 
+            Booleans.PrintBooleans();
+
             Variables.PrintVariables();
             
         }
