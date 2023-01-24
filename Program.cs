@@ -1,6 +1,7 @@
 ﻿using System;
 using aplicacion1.data_types;
 using aplicacion1.variables;
+using aplicacion1.scape_sequences;
 
 namespace aplicacion1
 {
@@ -9,15 +10,17 @@ namespace aplicacion1
         static void Main(string[] args)
         {
 
-            Integers.PrintIntegers();
+            //Integers.PrintIntegers();
 
-            Doubles.PrintDoubles();
+            //Doubles.PrintDoubles();
 
-            Strings.PrintStrings();
+            //Strings.PrintStrings();
 
-            Booleans.PrintBooleans();
+            //Booleans.PrintBooleans();
 
-            Variables.PrintVariables();
+            ScapeSequences.PrintScapeSequences();
+
+            //Variables.PrintVariables();
             
         }
     }
