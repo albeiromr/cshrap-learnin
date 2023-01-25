@@ -3,6 +3,7 @@ using aplicacion1.data_types;
 using aplicacion1.variables;
 using aplicacion1.scape_sequences;
 using aplicacion1.constants;
+using aplicacion1.nullable_types;
 
 namespace aplicacion1
 {
@@ -23,7 +24,9 @@ namespace aplicacion1
 
             //Variables.PrintVariables();
 
-            Constants.PrintConstants();
+            //Constants.PrintConstants();
+
+            NullableTypes.PrintNullableTypes();
             
         }
     }
