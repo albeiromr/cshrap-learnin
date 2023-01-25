@@ -2,6 +2,7 @@
 using aplicacion1.data_types;
 using aplicacion1.variables;
 using aplicacion1.scape_sequences;
+using aplicacion1.constants;
 
 namespace aplicacion1
 {
@@ -18,9 +19,11 @@ namespace aplicacion1
 
             //Booleans.PrintBooleans();
 
-            ScapeSequences.PrintScapeSequences();
+            //ScapeSequences.PrintScapeSequences();
 
             //Variables.PrintVariables();
+
+            Constants.PrintConstants();
             
         }
     }

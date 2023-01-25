@@ -28,6 +28,21 @@ namespace aplicacion1.variables
             Console.WriteLine(name);
 
             #endregion
+
+            #region scope de variables
+
+            //el scope de la variables solo es dentro de las llaves en las que es declarada
+            //un scope puede acceder a las variables declaradas en su scope padre
+            //un scope hijo no puede declarar una variable ya declarada en su scope padre
+
+            for (int i = 1; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            //i = 20; // fuera de scope
+
+            #endregion
         }
     }
 }

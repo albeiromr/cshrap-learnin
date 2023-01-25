@@ -8,6 +8,7 @@ namespace aplicacion1.scape_sequences
 {
     internal class ScapeSequences
     {
+
         public static void PrintScapeSequences()
         {
             #region scape sequences
