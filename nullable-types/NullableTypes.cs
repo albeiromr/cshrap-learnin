@@ -35,6 +35,18 @@ namespace aplicacion1.nullable_types
             int? myInt = null;
             Console.WriteLine(myInt);
 
+            //como se comprueba si un valor que puede ser nullo tiene o no tiene un valor?
+            //se usa la propiedad HasValue y Value de la siguiente manera
+
+            double? saldoDeCuenta = null;
+
+            //saldoDeCuenta = 2.56956;
+
+            if (saldoDeCuenta.HasValue)
+            {
+                Console.WriteLine(saldoDeCuenta.Value);
+            }
+
             #endregion
 
         }
