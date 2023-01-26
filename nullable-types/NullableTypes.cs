@@ -27,6 +27,14 @@ namespace aplicacion1.nullable_types
             Nullable<decimal> myDecimal = null;
             Console.WriteLine(myDecimal);
 
+            //tambíén se puede usar la sintaxis abreviada la cual es la siguiente
+
+            string? myString = null;
+            Console.WriteLine(myString);
+
+            int? myInt = null;
+            Console.WriteLine(myInt);
+
             #endregion
 
         }
