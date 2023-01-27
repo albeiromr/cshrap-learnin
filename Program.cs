@@ -4,6 +4,7 @@ using aplicacion1.variables;
 using aplicacion1.scape_sequences;
 using aplicacion1.constants;
 using aplicacion1.nullable_types;
+using aplicacion1.arrays;
 
 namespace aplicacion1
 {
@@ -26,8 +27,9 @@ namespace aplicacion1
 
             //Constants.PrintConstants();
 
-            NullableTypes.PrintNullableTypes();
-            
+            //NullableTypes.PrintNullableTypes();
+
+            Arrays.PrintArrays();
         }
     }
 }
